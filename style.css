@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    background: #a9d214;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: rgb(140, 201, 227);
+}
+
+.navbar input {
+    width: 40%;
+    padding: 8px;
+}
+
+.navbar nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.login, .signup {
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.signup {
+    background: purple;
+    color: white;
+}
+
+/* Menu */
+.menu {
+    background: #eee;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+}
+
+/* Hero */
+.hero {
+    padding: 40px;
+    background: purple;
+    color: white;
+    text-align: center;
+}
+
+/* Courses */
+.courses {
+    padding: 30px;
+}
+
+.course-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.course {
+    background: rgb(239, 242, 243);
+    padding: 10px;
+    width: 250px;
+}
+
+.course img {
+    width: 100%;
+}
+
+/* Topics */
+.topics {
+    padding: 30px;
+    text-align: center;
+}
+
+.topics input {
+    padding: 10px;
+    width: 300px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 50px;
+    background: #222;
+    color: rgb(250, 249, 250);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .navbar input {
+        width: 60%;
+    }
+
+    .course-container {
+        justify-content: center;
+    }
+}
